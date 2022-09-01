@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(conteudo/fontes/idroid.otf);
+
+}
+
+        body {
+            background-color: #1ba36f;
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: #00ff9d;
+            background: linear-gradient(#147A53,#072c1e);
+            color: rgb(224, 224, 224);
+            box-shadow: 2px 2px 2px black;
+            }
+        #cabeçalho{
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+            font-size: 22px;
+            font-style: normal;
+            }
+            #cabeçalho > p{
+                font-size: 18px;
+            }
+        #menu{
+                    color: white;
+                    text-align: center;
+                    margin-top: -10px;
+                    margin-left: 8px;
+                    margin-bottom: 16px;
+                    margin-right: 8px;
+        }
+        main{
+            background-color: white;
+            width: 800px;
+            text-align: center;
+            margin:auto;
+            border-radius: 20px;
+            box-shadow: 0px 0px 40px 5px black;
+            
+        }
+        main > h1 {
+            color: #0e583c;
+            font-family: idroid, sans-serif;
+            text-align: left;
+            margin: 5px 5px 5px 10px;
+        }
+        main > h2{
+            color: #0e583c;
+            font-family: idroid, sans-serif ;
+            text-align: left;
+            margin: 5px 5px 5px 5px;
+            background-color: blue;
+            background-image: linear-gradient(to right,#147A53, white);
+            width: 700px;
+            text-indent: 3px;
+            }
+        main > p {
+                text-align: justify;
+                margin-left: 18px;
+                margin-right: 18px;
+            }
+        iframe {
+                border-top: 10px solid #093B28;
+                border-left: 120px solid #093B28;
+                border-bottom: 10px solid #093b28;
+                border-right: 120px solid #093b28;
+            }
+        div#extra{
+                background-color: #a7f8d9;
+                border-radius: 5% 5% 5% 5%;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                margin-right: 20px;
+                text-align: justify;
+                text-indent: 30px;
+            }
+            div#extra > h3{
+                color: white;
+                background-color: #0e583c;
+                border-radius: 15px 15px 0px 0px;
+                margin-top: 20px;
+                margin-bottom: -5px;
+                height: 30px;
+                width: 760px;
+                text-indent: 10px;
+                }
+            div#extra > p{
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }  
+            footer{
+                background-color: #093B28;
+                color: white;
+                text-align: center;
+                }
+                footer > p {
+                    margin-bottom: 0px;
+                }
+            li{
+                display: inline-block;
+                width: 377px;
+                height: 20px;
+                text-decoration: underline;
+            }
+div#site{
+    color: black;
+    background-color: #a7f8d9;
+    height: max-content;
+}
